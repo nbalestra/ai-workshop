@@ -1,0 +1,22 @@
+@media (min-width: 50rem) {
+    .main {
+      position: relative;
+      max-width: 70rem;
+    }
+    .site-nav, .site-header, .site-footer {
+      width: 21.4rem;
+  }
+  }
+
+.header {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    margin: 1rem 1rem 1rem 1rem;
+}
+
+@media (min-width: 66.5rem) {
+  .site-nav, .site-header, .site-footer {
+      width: 21.5rem;
+  }
+}
