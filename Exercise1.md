@@ -113,7 +113,7 @@ In this exercise you will use [Anypoint Code Builder](https://docs.mulesoft.com/
     Now we need to create the two configuration files needed by Mule AI Chain: **tools.json** and **muleChain.json**
     We will also need to use a test file to invoke our agent!
 
-    Download the **muleChain.json** file [here](https://gist.githubusercontent.com/nbalestra/9e74b7c25afde0ca3e478b84b5e04a56/raw/7868e9e9f1e9e47c5dfce31de7d40f7cf6f4bc66/muleChain.json) and the **tools.json** file from [here](https://gist.githubusercontent.com/nbalestra/86671d331b838af2d3616c8690e79960/raw/2e9dc51ad8d6e8fe35f7a547ad330a2c76810cc2/tools.json) (press CMD+S on Mac or CTRL+S on Windows)
+    Download the **muleChain.json** file [here](https://gist.githubusercontent.com/nbalestra/9e74b7c25afde0ca3e478b84b5e04a56/raw/3e4f4da7074b0eec0560d5b12e6a784fd83e7b60/muleChain.json) and the **tools.json** file from [here](https://gist.githubusercontent.com/nbalestra/86671d331b838af2d3616c8690e79960/raw/2e9dc51ad8d6e8fe35f7a547ad330a2c76810cc2/tools.json) (press CMD+S on Mac or CTRL+S on Windows)
 
     Download the **tests.http** file from [here](https://gist.githubusercontent.com/nbalestra/66e772536b9387b17c5c9e5675755d62/raw/e9f1d33acb33135ea9dc432ccf51f537d592d05c/tests.http) and save the page (eg: CMD+S if you are on Mac/CTRL+S if you’re on Windows). Ensure the file name is **tests.http** (remove any extension the browser is automatically appending to the file name)
 
