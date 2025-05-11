@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Exercise 2"
+title:  "Exercise 2 - RAG"
 categories: workshop
 assets: "images/exercise2"
 ---
@@ -17,11 +17,11 @@ Let’s get started..
 
 ## Initialize the storage
 
-1.  In your current project select the `get:\rag\store\init` flow
+1.  In your current project, go back to the **api.xml** file and select the `get:\rag\store\init` flow
 
     ![]({{ page.assets}}/1.png)
 
-1.  Remove the existing **Transform Message** component and add a new component by searching "**Embedding new store**".
+1.  Remove the existing connector and add a new component by searching "**Embedding new store**".
 
     ![]({{ page.assets}}/2.png)
 
@@ -87,7 +87,7 @@ Let’s get started..
 
 1.  Once added to the flow, add the following parameters:
 
-    |  **Parameter **          |                                                                                                      |
+    |  **Parameter**          |   **Value**                                                                                                   |
     | :-----------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------: |
     |   **Connection Config**   |   MuleChain-Azure-AI-Config                                                                                |
     |   **Prompt**              |   ```"Provide a summary of the following content related to MuleSoft TXY: \n" ++ ((payload.sources.textSegment default []) joinBy "\n") ++ "\n If no content is provided, respond kindly that you don't have enough knowledge about MuleSoft "```   |
@@ -98,7 +98,8 @@ Let’s get started..
 
 ## Test the agent
 
-1.  Run the project and check it starts without any errors.
+1.  Run the project and check it starts without any errors. 
+    If prompted select "Start new" in case your Mule runtime was already running.
 
     ![]({{ page.assets}}/8.png)
 

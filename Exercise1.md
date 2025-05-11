@@ -1,12 +1,13 @@
 ---
 layout: post
-title:  "Exercise 1"
+title:  "Exercise 1 - LLM Tools Execution"
 categories: workshop
 assets: "./images/exercise1"
 ---
 # MuleSoft AI Chain hands-on lab - Exercise 1
 
-In this exercise you will use [Anypoint Code Builder](https://docs.mulesoft.com/anypoint-code-builder/) along with the [Mule AI Chain](https://mac-project.ai/) project to create some simple LLM integrations using MuleSoft
+In this exercise you will use [Anypoint Code Builder](https://docs.mulesoft.com/anypoint-code-builder/) along with the [Mule AI Chain](https://mac-project.ai/) project to create some simple LLM integrations using MuleSoft. Specifically you will build an Agent capable of invoking an API that returns the customer's orders. We are implementing an autonomous agent capable of executing an action when it's deemed necessary to fulfil the user request!
+
 
 1.  Login to <https://eu1.anypoint.mulesoft.com> using the credentials given by the workshop leader. Accept cookies if prompted. If prompted to verify email address, click “Not Now”
 
@@ -18,7 +19,9 @@ In this exercise you will use [Anypoint Code Builder](https://docs.mulesoft.com/
 
 4.  (Optional) Choose a theme
 
-5.  Click on the Mule logo in the Left-hand toolbar <img src="{{ page.assets}}/mule-logo.png"> and you will see the option appear to “Implement an API”. Click on “Implement an API”
+5.  Click on the Mule logo in the Left-hand toolbar <img src="{{ page.assets}}/mule-logo.png"> 
+
+6.  Click on **“Implement an API”**
 
     ![]({{ page.assets }}/2.png)
 
@@ -91,7 +94,7 @@ In this exercise you will use [Anypoint Code Builder](https://docs.mulesoft.com/
     |   **Name**          |   MuleChain-Azure-AI-Config                                                                                                                                |
     |   **LLM Type**      |   AZURE\\_OPENAI                                                                                                                                            |
     |   **Config type**   |   Configuration json                                                                                                                                       |
-    |   **File path**     |   ```mule.home ++ '/apps/' ++ app.name ++ '/muleChain.json'     Ensure you click on the small “*fx*” button to enable the expression language on this field ```  |
+    |   **File path**     |   ```mule.home ++ '/apps/' ++ app.name ++ '/muleChain.json'``` <br/> Ensure you click on the small “*fx*” button to enable the expression language on this field ```  |
     |   **Model name**    |   gpt-4o                                                                                                                                                   |
 
     Your configuration screen should look like this:
