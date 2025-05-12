@@ -27,7 +27,7 @@ Let’s get started..
 
 1.  Click on the new components and set the store name to:
 
-    ```mule.home ++ ‘/apps/’ ++ app.name ++ ‘/knowledge-centre.store’```
+    ```mule.home ++ '/apps/' ++ app.name ++ '/knowledge-centre.store'```
 
     Remember to click on the small ***fx*** button
 
@@ -69,7 +69,7 @@ Let’s get started..
     |   **Parameter**           |   **Value**                                                                                                                                                |
     | :-----------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------: |
     |   **Connection Config**   |   MuleChain-Azure-AI-Config                                                                                                                       |
-    |   **Data**                |   ```payload.data ++ \". Don't make any assumption\"```                                                                                                   |
+    |   **Data**                |   ```payload.data ++ ". Don't make any assumption"```                                                                                                   |
     |   **Store Name**          |   ```mule.home ++ '/apps/' ++ app.name ++ '/knowledge-centre.store'```  <br/>   **Note**: Ensure you select the “fx” button to enable DataWeave expression   |
     |   **Get latest**          |   Selected                                                                                                                                        |
 
